@@ -1,0 +1,17 @@
+.grid{
+    display:flex;
+    flex-direction: column;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.row{
+    display:flex;
+    flex-direction: row;
+}
+.cell{
+    display:flex;
+    flex: auto;  
+    outline: 1px solid #000;
+}
